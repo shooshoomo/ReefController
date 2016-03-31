@@ -8,6 +8,31 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" >Windows Fish Troller</TextBlock>
+        <Button HorizontalAlignment="left" VerticalAlignment="top" x:Name="btnGetStatus" Margin="75,100,0,0" Content="Get Tank Status" Width="150"/>
+        <TextBlock x:Name="tbLastReboot" HorizontalAlignment="Left" Margin="75,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Last Reboot:" />
+        <TextBlock x:Name="tbDateTime" HorizontalAlignment="Left" Margin="75,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Date Time:" />
+        <TextBlock x:Name="tbTankTemp" HorizontalAlignment="Left" Margin="75,250,0,0" TextWrapping="Wrap" Text="Tank Temp:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbLights" HorizontalAlignment="Left" Margin="75,300,0,0" TextWrapping="Wrap" Text="Lights:" VerticalAlignment="Top"/>
+        <Button HorizontalAlignment="left" VerticalAlignment="top" x:Name="btnTurnLightsAuto" Margin="200,300,0,0" Content="Auto" Width="60" />
+        <Button HorizontalAlignment="left" VerticalAlignment="top" x:Name="btnTurnLightsManual" Margin="260,300,0,0" Content="Manual" Width="100"/>
+        <Button HorizontalAlignment="left" VerticalAlignment="top" x:Name="btnTurnLightsOff" Margin="360,300,0,0" Content="Off" Width="50"/>
+        <TextBlock x:Name="tbRedLED" HorizontalAlignment="Left" Margin="100,350,0,0" TextWrapping="Wrap" Text="Red:" VerticalAlignment="Top"/>
+        <Slider x:Name="slRedLED" HorizontalAlignment="Left" Margin="150,340,0,0" Minimum="0" Maximum="255" TickPlacement="BottomRight" Width="100" />
+        <TextBlock x:Name="tbGreenLED" HorizontalAlignment="Left" Margin="100,400,0,0" TextWrapping="Wrap" Text="Green:" VerticalAlignment="Top"/>
+        <Slider x:Name="slGreenLED" HorizontalAlignment="Left" Margin="150,390,0,0" Minimum="0" Maximum="255" TickPlacement="BottomRight" Width="100" />
+        <TextBlock x:Name="tbBlueLED" HorizontalAlignment="Left" Margin="100,450,0,0" TextWrapping="Wrap" Text="Blue:" VerticalAlignment="Top"/>
+        <Slider x:Name="slBlueLED" HorizontalAlignment="Left" Margin="150,440,0,0" Minimum="0" Maximum="255" TickPlacement="BottomRight" Width="100" />
+        <TextBlock x:Name="tbFan" HorizontalAlignment="Left" Margin="75,500,0,0" TextWrapping="Wrap" Text="Fan:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbPumps" HorizontalAlignment="Left" Margin="75,550,0,0" TextWrapping="Wrap" Text="Pumps:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbLastRebootData" HorizontalAlignment="Left" Margin="200,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbDateTimeData" HorizontalAlignment="Left" Margin="200,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbTankTempData" HorizontalAlignment="Left" Margin="200,250,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" />
+        <TextBlock x:Name="tbLightsData" HorizontalAlignment="Left" Margin="200,300,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Button HorizontalAlignment="left" VerticalAlignment="top" x:Name="btnTurnFanAuto" Margin="200,500,0,0" Content="Auto" Width="60" />
+        <Button HorizontalAlignment="left" VerticalAlignment="top" x:Name="btnTurnFanOn" Margin="260,500,0,0" Content="On" Width="50"/>
+        <Button HorizontalAlignment="left" VerticalAlignment="top" x:Name="btnTurnFanOff" Margin="310,500,0,0" Content="Off" Width="50"/>
+        <Button HorizontalAlignment="left" VerticalAlignment="top" x:Name="btnTurnPumpOn" Margin="200,550,0,0" Content="On" Width="50" />
+        <Button HorizontalAlignment="left" VerticalAlignment="top" x:Name="btnTurnPumpOff" Margin="250,550,0,0" Content="Off" Width="50"/>
     </Grid>
 </Page>
