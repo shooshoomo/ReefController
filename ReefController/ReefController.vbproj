@@ -97,6 +97,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <None Include="ReefControllerMkr1000.ino" />
     <None Include="ReefControllerMega2560.ino" />
     <None Include="project.json" />
   </ItemGroup>
