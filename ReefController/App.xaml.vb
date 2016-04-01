@@ -1,5 +1,6 @@
 ﻿''' <summary>
-''' Provides application-specific behavior to supplement the default Application class.
+''' Written by Shawn Leclair  Copyright 2016
+''' shoo_shoo_mo@yahoo.com
 ''' </summary>
 NotInheritable Class App
     Inherits Application

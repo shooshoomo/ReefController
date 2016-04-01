@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" >Windows Fish Troller</TextBlock>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" >UWP Reef Controller</TextBlock>
         <Button HorizontalAlignment="left" VerticalAlignment="top" x:Name="btnGetStatus" Margin="75,100,0,0" Content="Get Tank Status" Width="150"/>
         <TextBlock x:Name="tbLastReboot" HorizontalAlignment="Left" Margin="75,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Last Reboot:" />
         <TextBlock x:Name="tbDateTime" HorizontalAlignment="Left" Margin="75,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Date Time:" />

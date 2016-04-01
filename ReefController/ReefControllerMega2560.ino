@@ -1,7 +1,8 @@
 
 /*********************
 Written by Shawn Leclair Copyright 2016.
-Original code writte for Mega 2560 while waiting for mkr1000
+Original code written for Mega 2560 while waiting for mkr1000
+shoo_shoo_mo@yahoo.com
 
 Hardware:
 Arduino Mega 2560
